@@ -5,15 +5,30 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 36px;
+}
+h3{
+    font-size: 28px;
+}
+p{
+    font-size: 20px;
+}
 span{
     color: orange;
 }
-section{
+.container-flex{
     display: flex;
+}
+.first-section{
+background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 10px;
 }
 .header-part-1{
     width: 50%;
-    padding: 10px;
+    padding-top: 10px;
     margin-left: 20px;
 }
 .hire-button{
@@ -24,9 +39,56 @@ section{
     text-decoration: none;
     font-size: 20px;
 }
+.second-section{
+background-image: url(images/dream-bg.png);
+background-repeat: no-repeat;
+background-position: right;
+}
 .header-part-1 img{
-    width:62%;
+    width:68%;
     float: right;
     padding-right: 80px;
     
+}
+#section2-img{
+    width: 50%
+}
+.section2-div{
+    margin-top: 50px;
+    padding: 50px;
+}
+
+
+.exp-container{
+    width: 33%;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 10px 10px 15px lightgray;
+}
+h4{
+    color: orange;
+}
+#skill-border1{
+border-left: 7px solid tomato;
+border-radius: 10px;
+
+}
+#skill-border2{
+border-left: 7px solid blue;
+border-radius: 10px;
+}
+#skill-border3{
+border-left: 7px solid orange;
+border-radius: 10px;
+}
+.third-section {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 20px;
+}
+footer p {
+
+    text-align: center;
 }
